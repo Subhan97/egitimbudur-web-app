@@ -1,0 +1,25 @@
+header{
+    background-color: red;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    color: grey !important;
+}
+    .navbar-collapse{
+      flex-direction: row-reverse;
+    }
+    @media only screen and (max-width:992px){
+        .navbar-collapse{
+          flex-direction: column-reverse;
+        }
+    }
+
+
+
+  
+   
+
+
+

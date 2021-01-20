@@ -1,11 +1,17 @@
 @import 'base';
 @import '~bootstrap/scss/bootstrap.scss';
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,300&display=swap');
+
 // Some best-practice CSS that's useful for most apps
 // Just remove them if they're not what you want
 html {
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
+*{
+  font-family: 'Lato', sans-serif;
+}
+
 
 html,
 body {
@@ -19,3 +25,75 @@ body {
 *:after {
   box-sizing: inherit;
 }
+.btn-primary{
+  background-color: rgba(0, 128, 0, 0.685) !important;
+  cursor: pointer;
+}
+
+
+header{
+  background-color: #fff;
+  box-shadow: 13px 10px 8px rgba(0,0,0,0);
+  position: fixed;
+  width: 100%;
+}
+header button {
+background-color: black !important;
+color: white !important;
+}
+.nav-link{
+  color: black !important;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-brand{
+  color: red !important;
+}
+.nav-link:hover{
+  color: red !important;
+}
+  .navbar-collapse{
+    flex-direction: row-reverse;
+  }
+  @media only screen and (max-width:992px){
+      .navbar-collapse{
+        flex-direction: column-reverse;
+      }
+  }
+  .home-container{
+    background-image: url(images/4446826769849883857.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    padding-top:60px;
+  }
+  .container form a{
+    margin-left: 150px;
+      color: black;
+      font-weight: bold;
+    
+  }
+  .home-container a:hover{
+    color:black;
+  }
+  p{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(37, 27, 27);
+  }
+  strong{
+    color: black;
+  }
+  h1{
+    text-align: center;
+    color: white !important;
+    font-size: 100px;
+    margin-top: 150px;
+    font-weight: bolder;
+    text-shadow: 3px 0 12px rgba(0,0,0,0);
+  }
+  form{
+    width: 425px;
+    margin: 50px auto;
+   
+  }

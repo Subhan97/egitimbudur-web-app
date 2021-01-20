@@ -21,7 +21,7 @@ class Header extends React.Component {
     console.log('RENDERING')
     return (
       <header>
-        <nav className=" container navbar navbar-expand-lg navbar-light justify-content-between ">
+        <nav className=" container navbar navbar-expand-lg justify-content-between ">
           <a className="navbar-brand" href="#">
             Egitimbudur
             </a>
